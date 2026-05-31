@@ -1,6 +1,6 @@
 # German Grammar
 
-A skill for Claude Code and OpenCode that corrects German spelling, grammar, and punctuation according to the official Amtliches Regelwerk 2024 (German Orthographic Rules 2024), published by the Council for German Orthography (Rat für deutsche Rechtschreibung).
+A skill for Claude Code, OpenCode, Codex, and Antigravity that corrects German spelling, grammar, and punctuation according to the official Amtliches Regelwerk 2024 (German Orthographic Rules 2024), published by the Council for German Orthography (Rat für deutsche Rechtschreibung).
 
 ## Installation
 
@@ -24,7 +24,21 @@ mkdir -p ~/.config/opencode/skills
 git clone https://github.com/blueqwertz/german-grammar.git ~/.config/opencode/skills/german-grammar
 ```
 
-> OpenCode also scans `~/.claude/skills/`, so a single clone works for both tools.
+#### Codex
+
+```bash
+mkdir -p ~/.codex/skills
+git clone https://github.com/blueqwertz/german-grammar.git ~/.codex/skills/german-grammar
+```
+
+#### Antigravity
+
+```bash
+mkdir -p ~/.antigravity/skills
+git clone https://github.com/blueqwertz/german-grammar.git ~/.antigravity/skills/german-grammar
+```
+
+> OpenCode also scans `~/.claude/skills/`, so a single clone into `~/.claude/skills/german-grammar/` works for both tools.
 
 ## Usage
 

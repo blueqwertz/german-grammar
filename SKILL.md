@@ -8,7 +8,7 @@ description: |
   Zusammenschreibung, Bindestrichschreibung, Groß- und Kleinschreibung,
   Zeichensetzung sowie Worttrennung am Zeilenende.
 license: MIT
-compatibility: claude-code opencode
+compatibility: claude-code opencode codex antigravity
 allowed-tools:
   - Read
   - Write
